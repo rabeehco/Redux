@@ -6,7 +6,7 @@ import { createSlice } from "@reduxjs/toolkit";
 // we can export the generated Redux action creators and the reducer 
 // function for the whole slice.
 
-export const counterSlice = createSlice({
+ const counterSlice = createSlice({
     name: 'counter',
     initialState: {
         value: 0,
